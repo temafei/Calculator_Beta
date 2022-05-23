@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<<<<<<< HEAD
   <div class="Result" id="input_1"></div>
    
   <div id="cnopki_1">
@@ -30,11 +31,38 @@
       <button id="cl2">=</button>
       <button id="cl2">AC</button>
   </div>
+=======
+
+ <div class="Pole" id="input_1"></div>
+
+<div id="cnopki_1" style="bottom: 1000px;">
+<button id="cl1" >1</button>
+<button id="cl1" >2</button>
+<button id="cl1" >3</button>
+<button id="cl1" >4</button>
+<button id="cl1" >5</button>
+<button id="cl1" >6</button>
+<button id="cl1" >7</button>
+<button id="cl1" >8</button>
+<button id="cl1" >9</button>
+<div>
+
+<div class="dei">
+    <button id="cl2" >+</button>
+    <button id="cl2">-</button>
+    <button id="cl2">*</button>
+    <button id="cl2">/</button>
+    <button id="cl2">=</button>
+    <button id="cl2">AC</button>
+</div>
+
+>>>>>>> f7f49829c2d2f94a61f883415d0054c428fdac80
 </body>
 </html>
 
 <script>
 
+<<<<<<< HEAD
 let cnopki_1 = document.querySelector('cnopki_1')
 let Result = document.querySelector('#input_1') 
 
@@ -56,4 +84,26 @@ switch(value){
 
 })
 
+=======
+let cnopki_1 = document.getElementById("cnopki_1")
+let input = document.getElementById("input_1")
+let input2 = document.getElementById("input_2")
+
+
+let input_1 = document.getElementById("input_1")
+cnopki_1.addEventListener("click", function (event){
+    console.log("Нажал на кнопку cl1")
+    console.log(event)
+    input.textContent = "1"
+})
+
+let input_2 = document.getElementById("input_2")
+cnopki_1.addEventListener("click", function (event){
+    console.log("Нажал на кнопку cl1")
+    console.log(event)
+    input.textContent = "2"
+})
+
+
+>>>>>>> f7f49829c2d2f94a61f883415d0054c428fdac80
 </script>

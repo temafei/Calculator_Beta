@@ -2,6 +2,7 @@
     height: 45px;
     width: 45px;
     border-radius: 30px;
+<<<<<<< HEAD
     border: none;
     background-color: rgb(77, 75, 75);
     color: white;
@@ -9,10 +10,20 @@
 }
 
 .Result {
+=======
+    border:none ;
+    background-color:rgb(77, 75, 75) ; 
+    color: white;  
+}
+
+
+.Pole {
+>>>>>>> f7f49829c2d2f94a61f883415d0054c428fdac80
     background-color: rgb(255, 255, 255);
     height: 40px;
     width: 430px;
     border-radius: 10px;
+<<<<<<< HEAD
     border: 2px solid rgb(233, 233, 233) ;
     margin-bottom: 9px;
     font-size: 19px;
@@ -26,4 +37,17 @@
     background-color: rgb(206, 186, 7);
     color: white;
     font-size: 17px;
+=======
+    border: 2px solid rgb(233, 233, 233);
+}
+
+
+#cl2{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    border:none ;
+    background-color:rgb(206, 186, 7) ; 
+    color: white;  
+>>>>>>> f7f49829c2d2f94a61f883415d0054c428fdac80
 }
