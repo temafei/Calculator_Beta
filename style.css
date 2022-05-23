@@ -1,0 +1,29 @@
+#cl1 {
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(77, 75, 75);
+    color: white;
+    font-size: 17px;
+}
+
+.Result {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 430px;
+    border-radius: 10px;
+    border: 2px solid rgb(233, 233, 233) ;
+    margin-bottom: 9px;
+    font-size: 19px;
+}
+
+#cl2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(206, 186, 7);
+    color: white;
+    font-size: 17px;
+}
