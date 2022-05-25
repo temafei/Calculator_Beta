@@ -11,23 +11,34 @@
 
 <article class="cnopki1"></div>
   <div class="cnopki1_Result" id="Result"></div>
-   
+    <div class="zadniFon">
+
+
+      <button id="cl2" style="background-color: rgb(202, 199, 199); color: black;">AC</button>
+      <button id="cl2" style="background-color: rgb(202, 199, 199); color: black;">+/-</button>
+      <button id="cl2" style="background-color: rgb(202, 199, 199); color: black;">%</button>
+      <button id="cl2">/</button>
+      
+      
       <button id="cl1">1</button>
       <button id="cl1">2</button>
       <button id="cl1">3</button>
+      <button id="cl2">*</button>
       <button id="cl1">4</button>
       <button id="cl1">5</button>
       <button id="cl1">6</button>
+      <button id="cl2">-</button>
       <button id="cl1">7</button>
       <button id="cl1">8</button>
       <button id="cl1">9</button>
-
       <button id="cl2">+</button>
-      <button id="cl2">-</button>
-      <button id="cl2">*</button>
-      <button id="cl2">/</button>
-      <button id="cl2">=</button>
-      <button id="cl2">AC</button>
+      <button id="cl1">0</button>
+      <button id="cl1">,</button>
+      <button id="cl2" style="width: 100px;">=</button>
+
+
+    </div>
+   </div>
 </article>
 
 <script>
@@ -35,22 +46,29 @@
 let cnopki1 = document.querySelector('.cnopki1')
 let Result = document.querySelector('#Result')
 
+
 cnopki1.addEventListener('click', function(event){
     let value = event.target.innerText
-switch(value){
+
+    switch(value){
     case 'AC':
         Result.innerText = ''
     break
     case '=':
-        Result.innerText = eval(Result.innerText).toFixed(2);
+        Result.innerText = eval(Result.innerText).toFixed(2)
     break
-
+    case '+/-':
+        Result.innerText = '-'
+    break
+    case '%' :
+        
+    break
+    
     default:
     Result.innerText += value;
 }
-   
+
 })
 
-//Готово
 
 </script>
